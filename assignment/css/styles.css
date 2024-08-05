@@ -1,0 +1,285 @@
+/* Name: Elisha Kavanagh-Hiscott | Student Number: 7300346 */
+
+/* I had to change the image I used for the css assignment becuase I had alot of trouble trying to format the original 
+landscape view image in between the main with a width of 70% and aside width of 30%. */
+
+html{
+    font-style : normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.25;
+    font-family :Arial, Helvetica, sans-serif;;
+    
+    /* My shorthand method with the 6 above properties I choose to use.*/
+    font : normal normal normal 20px/1.25 Arial, Helvetica, sans-serif;
+    
+    color: black; 
+    background-color: rgb(255, 192, 228); 
+}  
+header{
+    width : 50vw; 
+    height : 50vh;
+    width : 100%; 
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(237,47,164),rgb(251, 124, 203),rgb(255, 141, 211),rgb(255, 192, 228)); 
+ }
+body{
+    max-width : 1200px;
+    width : 100%;
+    height: 100%;
+    margin: 2rem; 
+    padding: 2rem;
+    border: .25rem solid black; 
+}
+img{
+    padding: .5rem;
+    border: .1rem double rgb(141,5,80);
+    text-align: center;
+    border-radius: 2rem;
+    
+}
+figcaption{
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(141,5,80);
+    text-align: center;
+}
+iframe{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border:.25rem solid rgb(141,5,80);
+    border-radius: 2rem;
+}
+footer{
+    margin: 3em;
+    padding: 3em;
+    font-size: small;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(237, 47, 164),rgb(251,124,203),rgb(255,141,211),rgb(255, 192, 228));
+}
+#main-section{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+#aside-section{
+    float: right;
+    width: 30%;
+}
+#footer-section{
+    clear: both;
+    width: 95%;
+    margin: 2em;
+    padding: 2em;
+    border: .2em solid #020202;
+    border-radius: 5px;
+    font-size: .6rem;
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    a:link{color:rgb(4, 4, 4)}
+    a:visited{color:rgb(123, 47, 83)}
+}
+#image-section{
+    float: right;
+    width: 45%;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+    border: .1rem double rgb(141,5,80);
+    border-radius: 1rem;
+    background-image: linear-gradient(to bottom, rgb(232, 232, 141), rgb(255, 153, 221), rgb(232, 232, 141));
+    box-shadow: 1rem 1rem 1rem rgb(255, 153, 221);
+}
+#bio-section{
+    float:left;
+    width: 45%;
+    margin: .5rem;
+    padding: .5rem;   
+}
+#quote-section{
+    /* This quote section was supposed to be clear: both; but I wasn't able to format it properly with a clear float.
+    I made the section that follows this one clear: both; for the float attribute. */
+    float: left; 
+    width: 80%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2rem dotted rgb(217, 18, 154);
+    box-shadow: 1rem 1rem 1rem rgb(251,124,203);  
+}
+q{
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', serif;
+    color: black;
+    box-shadow: .2rem .2rem rgb(245, 136, 203);
+}
+#video-section{
+    clear: both;
+    float: left;
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem;
+    border: .25em solid rgb(141,5,80);
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem rgb(251,124,203);
+    background-color: rgb(247, 147, 209);
+    line-height: 1.5rem;
+    justify-content: space-between;
+}
+#links-related-to-Nicki-Minaj{
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+}
+#Contact-Form{
+    width: 85%;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: left;
+    color: black;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 1.5;   
+}
+label{
+    width: 100%;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    height: 2rem;
+    width:100%;
+    width: 100%;
+    color: black;
+} 
+ul, ol{
+    list-style-type: none;
+    text-align: right;
+}
+a:link{ 
+    color:rgb(144, 4, 99)
+};
+a:visited{
+    color:rgb(144, 4, 99)
+};
+a:hover{
+    color:rgb(248, 81, 181)
+}
+h1{
+    color: black;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    font-size : 4rem; 
+    padding : 2em; 
+}
+h2{
+    color: black;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    margin: .5em;
+    padding: .5em;
+}
+h3{
+    color: black;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: right;
+    margin: .5em;
+    padding: .5em;
+}
+@media (max-width: 600px){
+    html{
+        font-size: 15px;
+        width : 100%;
+        padding : auto;
+        margin: auto;
+    }
+    #main-section{
+        float : none;
+        width : 100%;
+        padding: auto;
+        margin: auto;
+    }
+    #aside-section{
+        float : none;
+        width : 100%;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    #image-section{
+        float : none;
+        width : 100%;
+        padding: auto;
+        margin: auto;
+    }
+    #bio-section{
+        float : none;
+        width : 100%;
+        padding: auto;
+        margin: auto;
+    }
+    #quote-section{
+        float : none;
+        width : 80%;
+        padding: auto;
+        margin: auto;
+    }
+    #video-section{
+        float : none;
+        width : 80%;
+        padding: auto;
+        margin: auto;
+    }
+    iframe{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+    }
+    #links-related-to-Nicki-Minaj{
+        width : 90%;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    h3{
+        width : 83%;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    ul, ol {
+        width: 90%;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+}
